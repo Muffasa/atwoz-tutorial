@@ -31,9 +31,14 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: false,  
       template: './src/index.html',
       title: 'App',
       filename: 'index.html'
-    })
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+        name: 'vendor', 
+        filename: 'vendor.js',
+        minChunks: Infinity}),
   ]
 }
