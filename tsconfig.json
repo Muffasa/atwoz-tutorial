@@ -9,7 +9,7 @@
      "removeComments": false,
      "noImplicitAny": false
     },
-    "files": [
-     "src/app.ts"
-    ]
+  "files": [
+    "typings/tsd.d.ts" 
+  ]
   }
