@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {  
   cache: false,
@@ -27,5 +28,12 @@ module.exports = {
             }
     ]
     
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      title: 'App',
+      filename: 'index.html'
+    })
+  ]
 }

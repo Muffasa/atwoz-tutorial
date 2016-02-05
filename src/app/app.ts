@@ -8,7 +8,7 @@ import {Component} from 'angular2/core';
 
 export class AppComponent { 
 
-  public title = 'Angular 2 works';
+  public title = 'Angular 2 works!';
 
 }
 
