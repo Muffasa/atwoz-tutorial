@@ -9,7 +9,9 @@
   "author": "Ohad Galor Kimchi <ohadgk@atwoz.net>",
   "license": "ISC",
   "dependencies": {
+    "ts-loader": "^0.8.0",
     "typescript": "^1.7.5",
-    "typings": "^0.6.6"
+    "typings": "^0.6.6",
+    "webpack": "^1.12.13"
   }
 }
