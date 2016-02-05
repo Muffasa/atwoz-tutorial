@@ -10,8 +10,6 @@
      "noImplicitAny": false
     },
     "files": [
-     "app.ts",
-     "src/app.ts",
-      "typings/tsd.d.ts"
+     "src/app.ts"
     ]
   }
