@@ -27,4 +27,4 @@ gcloud
 open-stack
 
 
-every new thecnology that used by a2z will be added
+every new thecnology that used by a2z will be added.
