@@ -1,0 +1,5 @@
+ng2-node-server-service:
+  image: ohadgk/atwoz-tutorial
+  autorestart: always
+  ports:
+    - "80:8080"

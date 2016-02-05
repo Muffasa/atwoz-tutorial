@@ -10,7 +10,10 @@ ADD . /home/app
 # Install dependencies
 RUN \
     npm install -g tsd && \
-    npm install
+    npm install -g webpack && \
+    npm install && \
+    webpack
+    
 
 
 EXPOSE 8080
