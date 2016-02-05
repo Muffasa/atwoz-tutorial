@@ -1,0 +1,11 @@
+{
+  "name": "atwoz-tutorial",
+  "version": "0.0.1",
+  "description": "This project contains several other tutorials and resources about all the technologies A2Z are about to use. this source code will bundel all those technologies to creat a minimal full stack scaleable project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ohad Galor Kimchi <ohadgk@atwoz.net>",
+  "license": "ISC"
+}
