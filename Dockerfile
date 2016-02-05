@@ -8,7 +8,9 @@ WORKDIR /home/app
 ADD . /home/app
  
 # Install dependencies
-RUN npm install
+RUN \
+    npm install -g tsd && \
+    npm install
 
 
 EXPOSE 8080
